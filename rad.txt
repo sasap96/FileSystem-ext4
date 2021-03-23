@@ -1,0 +1,10 @@
+Nacin funkcionisanja:
+Binarna datoteka je izdijeljena na 4 oblasti. To su BITMAPA iCVOROVA(iNODE)(sluzi da pokaze koji su cvorovi slobodni) 
+1-zauzeto, 0-slobodno(BIT), BITMAPA BLOKOVA(koji su cvorovi slobodni) 1-zauzeto, 0-slobodno(BIT), TABELA CVOROVA(INODE)
+(prostor za smjestanje zacvorova) i na BLOKOVE za smjestanje podataka.U blokove se upisuje redom, nema upisivanja 
+dok se postojeci ekstent ne popuni, ako je ekstent pun, on se pokusava produziti, ukoliko to nije moguce jer sledeci
+blok nije  slobodan, kreira se novi ekstent(TAKO STO SE TRAZI NAJBLIZI MOGUCI BLOK). Do fragmentacije moze doci samo 
+u poslednjem bloku poslednjeg  ekstetna, zato sto su svi prethodni ekstenti vec popunjeni. Poslednjim ekstentom se 
+uvijek manipulise odvojeno od ostalih ekstenata, zato sto broj zauzetih(iskoriscenih) bajtova nije unaprijed 
+poznat(tj nije puna velicina bloka, ali on zauzima blok), vec se ona racuna 
+na osnovu velicine fajla i alociranih blokova.

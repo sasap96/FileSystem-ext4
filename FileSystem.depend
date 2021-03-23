@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1566297692 source:c:\users\sasa pejasinovic\desktop\filesystem\filesystem\filesystem.cpp
+	"FileSystem.h"
+	<iostream>
+	<bitset>
+
+1566293586 c:\users\sasa pejasinovic\desktop\filesystem\filesystem\filesystem.h
+	<string>
+	<fstream>
+	<bitset>
+	"Inode.h"
+	<algorithm>
+	"properties.h"
+
+1565954786 c:\users\sasa pejasinovic\desktop\filesystem\filesystem\inode.h
+	"properties.h"
+	<algorithm>
+	<iostream>
+	<fstream>
+
+1565887483 c:\users\sasa pejasinovic\desktop\filesystem\filesystem\properties.h
+
+1565947441 source:c:\users\sasa pejasinovic\desktop\filesystem\filesystem\inode.cpp
+	"Inode.h"
+	<algorithm>
+
+1566295939 source:c:\users\sasa pejasinovic\desktop\filesystem\filesystem\main.cpp
+	<iostream>
+	<string>
+	"Inode.h"
+	<fstream>
+	"properties.h"
+	"FileSystem.h"
+	<bitset>
+
+1567336306 source:c:\users\sasa pejasinovic\desktop\fsm\filesystem\filesystem\main.cpp
+	<iostream>
+	<string>
+	"Inode.h"
+	<fstream>
+	"properties.h"
+	"FileSystem.h"
+	<bitset>
+
+1566638551 c:\users\sasa pejasinovic\desktop\fsm\filesystem\filesystem\inode.h
+	"properties.h"
+	<algorithm>
+	<iostream>
+	<fstream>
+
+1566907749 c:\users\sasa pejasinovic\desktop\fsm\filesystem\filesystem\properties.h
+
+1567320988 c:\users\sasa pejasinovic\desktop\fsm\filesystem\filesystem\filesystem.h
+	<string>
+	<fstream>
+	<bitset>
+	"Inode.h"
+	<algorithm>
+	"properties.h"
+
+1566907750 source:c:\users\sasa pejasinovic\desktop\fsm\filesystem\filesystem\inode.cpp
+	"Inode.h"
+	<algorithm>
+
+1567355609 source:c:\users\sasa pejasinovic\desktop\fsm\filesystem\filesystem\filesystem.cpp
+	"FileSystem.h"
+	<iostream>
+	<bitset>
+
